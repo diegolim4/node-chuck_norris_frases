@@ -15,5 +15,5 @@ app.get('/', async(req, res)=>{
     }
 })
 
-const port = 9090
-app.listen( process.env.PORT ||port)
+const PORT = process.env.PORT || 9090
+app.listen(PORT)
