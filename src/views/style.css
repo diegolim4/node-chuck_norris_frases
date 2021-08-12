@@ -1,0 +1,11 @@
+.container{
+    text-align: left;    
+    position: absolute;    
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.container p{
+    white-space: pre-line;
+    font-size: 20px;
+}
