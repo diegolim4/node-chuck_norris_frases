@@ -16,6 +16,4 @@ app.get('/', async(req, res)=>{
 })
 
 const port = 9090
-app.listen(port, ()=>{
-    console.log('runing...')
-})
+app.listen( process.env.PORT ||port)
